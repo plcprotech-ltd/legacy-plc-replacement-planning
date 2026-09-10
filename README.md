@@ -1,24 +1,43 @@
-# Legacy PLC Replacement Planning Case
+# Industrial Automation Engineering Casebook
 
-A practical, vendor-neutral engineering reference for documenting an obsolete PLC installation, assessing recovery risk, and choosing between temporary spare support, phased migration, and full control-system replacement.
+Open field references, checklists, lightweight tools and reusable data templates for engineers maintaining or migrating legacy industrial control systems.
 
-## What this project includes
+This repository is maintained by **PLCProTech Ltd.** and is intended to be useful on its own. It is not a collection of product advertisements or invented customer stories.
 
-- Interactive legacy PLC risk assessment
-- Migration planning sequence
-- Field documentation checklist
-- Downloadable CSV checklist
-- Downloadable JSON checklist
-- A transparent engineering example rather than a claimed customer case
+## Current cases
 
-## Intended use
+1. **Legacy PLC Replacement Planning** — recovery-risk assessment, migration sequence and survey template.
+2. **DCS Spare Module Failure Planning** — critical-spares scoring based on process impact, redundancy, lead time and recovery options.
+3. **Bently Nevada 3500 Rack Spare Strategy** — rack survey, redundancy review and critical-spare planning using current Baker Hughes documentation.
+4. **PLC Power Supply Failure Troubleshooting** — structured fault-isolation sequence and downloadable checklist.
+5. **Document a Legacy Control System Before Migration** — browser-based survey form with JSON export and CSV field sheet.
 
-Use the checklist during a cabinet survey or pre-migration review. Record exact catalog numbers, firmware versions, software versions, network dependencies, backups, drawings, and spare inventory before changing hardware.
+## Reusable data
 
-This project is vendor-neutral and does not replace manufacturer documentation or a site-specific engineering review.
+The `data/` directory contains plain CSV worksheets that can be opened in Excel, LibreOffice, Google Sheets, Python or any text editor.
+
+## Engineering rules used in this project
+
+- Record exact installed catalog numbers instead of guessing from product families.
+- Treat firmware, hardware revision and rear I/O assemblies as compatibility evidence where applicable.
+- Separate verified facts from planning assumptions.
+- Prefer current manufacturer manuals and datasheets for platform-specific statements.
+- Do not present a generic scenario as a real customer case.
+- Do not bypass site safety, change-control or manufacturer procedures.
+
+## Sources
+
+Platform-specific 3500 information in Case 03 is based on current public Baker Hughes / Bently Nevada 3500 system documentation, including the 3500 System Datasheet and product resource pages.
+
+- https://www.bakerhughes.com/bently-nevada/monitoring-systems/machinery-protection/3500-machinery-protection-systems
+- https://dam.bakerhughes.com/m/3e2d1931acef5630/original/3500-System-Datasheet-162096-pdf.pdf
 
 ## Maintainer
 
-Maintained by [PLCProTech Ltd.](https://www.plcprotech.com/pages/about-us) as an open industrial automation technical resource.
+Maintained by [PLCProTech Ltd.](https://www.plcprotech.com/pages/about-us).
 
-Additional technical articles: [PLCProTech Knowledge Center](https://www.plcprotech.com/blogs/knowledge)
+Additional industrial automation technical articles are available in the [PLCProTech Knowledge Center](https://www.plcprotech.com/blogs/knowledge).
+
+## Maintenance policy
+
+Updates are made when they add practical engineering value: new field tools, corrected technical information, improved checklists, reusable datasets, manufacturer-source updates or clearer recovery workflows. The project is not updated merely to create commit activity.
