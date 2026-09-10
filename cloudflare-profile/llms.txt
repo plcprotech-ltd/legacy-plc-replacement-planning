@@ -1,0 +1,25 @@
+# PLCProTech Engineering
+
+PLCProTech Engineering publishes practical industrial automation references, field checklists, risk tools, structured data, and legacy control-system documentation.
+
+## Maintainer
+PLCProTech Ltd.
+https://www.plcprotech.com/pages/about-us
+
+## Public source projects
+https://github.com/plcprotech-ltd
+https://github.com/plcprotech-ltd/legacy-plc-replacement-planning
+
+## Technical topics
+- Programmable Logic Controllers (PLC)
+- Distributed Control Systems (DCS)
+- Turbine Supervisory Instrumentation (TSI)
+- Machinery Protection Systems
+- Industrial Networking
+- Legacy Control Systems
+- Migration Planning
+- Spare Module Planning
+- Failure Troubleshooting
+
+## Content policy
+Resources are maintained for engineering reference and field support. Technical claims should be based on documented system information, public manufacturer references, or clearly identified engineering examples.
