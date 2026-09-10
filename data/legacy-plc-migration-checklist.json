@@ -1,0 +1,21 @@
+{
+  "project": "Legacy PLC Replacement Planning",
+  "purpose": "Pre-migration field documentation checklist",
+  "sections": [
+    {"name":"controller","items":["Manufacturer","PLC family / platform","CPU catalog number","Firmware revision","Memory module or storage"]},
+    {"name":"power","items":["Power supply catalog number","Input voltage"]},
+    {"name":"chassis","items":["Rack or chassis catalog number"]},
+    {"name":"io","items":["Digital input modules and slot order","Digital output modules and slot order","Analog input modules and slot order","Analog output modules and slot order","Specialty I/O modules"]},
+    {"name":"network","items":["Communication processor catalog numbers","Industrial protocols in use","Node addresses / IP addresses","Remote I/O dependencies"]},
+    {"name":"software","items":["Programming software name","Programming software version","Compatible operating system"]},
+    {"name":"backup","items":["Verified PLC program backup","HMI / SCADA backup","Network configuration backup"]},
+    {"name":"documentation","items":["Panel drawings","Wiring drawings","Network drawings"]},
+    {"name":"spares","items":["Spare CPU available","Spare power supply available","Critical I/O spares available","Communication module spares available"]},
+    {"name":"planning","items":["Planned shutdown window","Bench test completed","Rollback / recovery plan"]}
+  ],
+  "maintainer": {
+    "name": "PLCProTech Ltd.",
+    "url": "https://www.plcprotech.com/pages/about-us"
+  },
+  "disclaimer": "Vendor-neutral reference. Verify all compatibility and migration decisions against manufacturer documentation and site-specific engineering requirements."
+}
