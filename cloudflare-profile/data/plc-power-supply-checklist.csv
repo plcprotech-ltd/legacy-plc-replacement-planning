@@ -1,0 +1,9 @@
+step,check,status,measurement_or_evidence,reference,notes
+1,Confirm symptom and affected rack,,,
+2,Verify incoming source and protective devices,,,
+3,Confirm installed PSU catalog number and input specification,,,
+4,Inspect terminals connectors and visible thermal damage,,,
+5,Record controller and I/O status indicators,,,
+6,Review rack or module power loading using manufacturer method,,,
+7,Preserve event and alarm logs where available,,,
+8,Verify replacement compatibility and rollback plan,,,
