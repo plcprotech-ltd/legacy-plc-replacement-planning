@@ -1,0 +1,2 @@
+loop_tag,service,transmitter_model,transmitter_range,engineering_unit,ai_channel,measured_process_value,measured_current_ma,expected_current_ma,transmitter_terminal_voltage_v,loop_supply_voltage_v,input_resistance_ohm,barrier_or_isolator,cable_notes,scaling_verified,final_finding
+LT-101,Example level transmitter,,,%,AI-01,,,,,,,,,,
