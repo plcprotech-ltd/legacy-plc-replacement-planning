@@ -1,0 +1,6 @@
+tag,source_platform,source_ai_catalog,source_channel,source_raw_low,source_raw_high,target_platform,target_ai_catalog,target_channel,target_raw_low,target_raw_high,engineering_low,engineering_high,engineering_unit,test_point_percent,source_raw_observed,calculated_engineering_value,expected_target_raw,target_raw_observed,deviation_counts,diagnostic_or_clamp_notes,commissioning_notes
+,,,,,,,,,,,,,,0,,,,,,,
+,,,,,,,,,,,,,,25,,,,,,,
+,,,,,,,,,,,,,,50,,,,,,,
+,,,,,,,,,,,,,,75,,,,,,,
+,,,,,,,,,,,,,,100,,,,,,,
