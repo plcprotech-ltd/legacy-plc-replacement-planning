@@ -13,12 +13,13 @@ This repository is maintained by **PLCProTech Ltd.** and is intended to be usefu
 5. **Document a Legacy Control System Before Migration** — browser-based survey form with JSON export and CSV field sheet.
 6. **4–20 mA Loop Scaling & Troubleshooting** — browser calculator for mA-to-engineering-unit conversion, expected-current checks and loop-resistance budgeting, plus a reusable field sheet.
 7. **PLC Analog Input Raw Count Scaling & Migration Checker** — converts source raw counts to engineering units and maps the same process value into a replacement PLC or DCS raw range for migration and commissioning checks.
+8. **24 VDC Control Power Voltage Drop & Load Budget** — estimates DC cable voltage drop, endpoint voltage margin and continuous power-supply headroom using field-entered circuit values.
 
 ## Reusable data
 
 The `data/` directory contains plain CSV worksheets that can be opened in Excel, LibreOffice, Google Sheets, Python or any text editor.
 
-Current worksheets include DCS critical-spares planning, Bently Nevada 3500 rack surveys, PLC power-supply checks, legacy-system surveys, a 4–20 mA loop fault-isolation record, and an analog-input scaling migration test sheet.
+Current worksheets include DCS critical-spares planning, Bently Nevada 3500 rack surveys, PLC power-supply checks, legacy-system surveys, a 4–20 mA loop fault-isolation record, an analog-input scaling migration test sheet, and a 24 VDC control-power voltage-drop record.
 
 ## Engineering rules used in this project
 
@@ -39,6 +40,8 @@ Platform-specific 3500 information in Case 03 is based on current public Baker H
 Case 06 uses the standard linear 4–20 mA span relationship. Device-specific fault-current behavior, minimum operating voltage and input-card details must be verified against the installed transmitter and control-system documentation.
 
 Case 07 uses linear span mapping only. Raw count limits, reserved diagnostic codes, overrange/underrange behavior, signal mode and any built-in engineering-unit conversion must be verified against the exact source and target analog-input module documentation.
+
+Case 08 uses Ohm's law with user-entered conductor resistance and circuit values. Conductor ampacity, protective-device sizing, hazardous-area requirements, manufacturer derating and transient/inrush behavior remain site- and device-specific.
 
 ## Maintainer
 
