@@ -1,0 +1,6 @@
+panel_tag,supply_model,source_voltage_v,supply_rated_a,planning_utilization_percent,existing_continuous_load_a,planned_added_load_a,device_tag,device_model,device_min_voltage_v,device_load_current_a,one_way_cable_length_m,conductor_resistance_ohm_per_km,extra_series_resistance_ohm,calculated_loop_resistance_ohm,calculated_voltage_drop_v,calculated_endpoint_voltage_v,calculated_voltage_margin_v,measured_source_voltage_v,measured_endpoint_voltage_v,inrush_or_transient_notes,series_devices_or_barriers,findings
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
